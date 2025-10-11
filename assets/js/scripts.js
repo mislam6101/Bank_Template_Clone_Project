@@ -140,7 +140,7 @@ Table Of Contents end
 
         $('.home-slides').owlCarousel({
             loop: true,
-            autoplay: false,
+            autoplay: true,
             autoplayTimeout: 4000,
 			animateIn: "fadeInLeft",
 			animateOut: "fadeOutRight",
