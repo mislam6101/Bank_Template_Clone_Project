@@ -110,6 +110,18 @@
 			font-size: small;
 			text-transform: uppercase;
 		}
+
+		.my_class {
+			position: relative;
+		}
+
+		.text-block {
+			position: absolute;
+			bottom: 60px;
+			color: white;
+			padding-left: 20px;
+			padding-right: 20px;
+		}
 	</style>
 </head>
 
@@ -522,7 +534,6 @@
 
 	<!-- Start Banking for companies -->
 
-
 	<div class="container">
 		<h2 style="padding-top: 20px;">Banking for companies</h2>
 		<div class="row">
@@ -562,11 +573,23 @@
 
 	<!-- Start 6*6 section -->
 	<div class="row" style="padding-top: 20px;">
-		<div class="col-md-6">
-			<img src="assets/img/homee/bd-Smart-Acc_Mobile-masterhead-banner-768X350px.jpg" alt="">
+		<div class="col-md-6 my_class">
+			<img style="filter: brightness(60%);"
+				src="assets/img/homee/bd-Smart-Acc_Mobile-masterhead-banner-768X350px.jpg" alt="">
+			<div class="text-block">
+				<h4 style="color: #fff;">SMART ACCOUNT</h4><br>
+				<p>Enjoy a hassle-free digital lifestyle which allows you to fulfil your all banking needs without
+					visiting the branches</p><br>
+				<button class="btn-lg">Learn More</button>
+			</div>
 		</div>
-		<div class="col-md-6">
-			<img src="assets/img/homee/bd-home-loan-banner-768X350px.jpg" alt="">
+		<div class="col-md-6 my_class">
+			<img style="filter: brightness(60%);" src="assets/img/homee/bd-home-loan-banner-768X350px.jpg" alt="">
+			<div class="text-block" style="bottom: 80px;">
+				<h4 style="color: #fff;">Home Loan</h4><br>
+				<p>Takeover Home Loan – More Life per Square Feet</p><br>
+				<button type="button" class="btn-lg">Learn More</button>
+			</div>
 		</div>
 	</div>
 
@@ -673,7 +696,7 @@
 						<a href="" class="my_a">Global Research</a><br>
 						<a href="" class="my_a">Worldwide Locations</a><br>
 					</div>
-					
+
 					<!-- End Widget -->
 					<div class="col-lg-3 col-md-6 col-sm-12 col-12  mb-lg-0 mb-md-0 mb-sm-5 mb-5 footer-widget">
 						<a href="" class="my_a">Security Tips</a><br>
@@ -704,7 +727,7 @@
 							</ul>
 						</div>
 
-						
+
 					</div>
 					<!-- End Widget -->
 				</div>
